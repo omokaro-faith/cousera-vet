@@ -1,4 +1,4 @@
-import React from "react"
+import React, {memo} from "react"
 import PropTypes from "prop-types"
 
 const Subsection = ({user}) => {
@@ -17,4 +17,4 @@ Subsection.propTypes = {
 }
 
 
-export default Subsection
+export default memo(Subsection)

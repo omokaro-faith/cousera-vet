@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useState, memo} from "react"
 import Subsection from "../../components/Subsection/Subsection"
 import PropTypes from "prop-types"
 import { ImagePlaceholder } from "../Placeholders/Placeholders"
@@ -32,4 +32,4 @@ Card.propTypes = {
   showSection: PropTypes.bool.isRequired,
 }
 
-export default Card
+export default memo(Card)
