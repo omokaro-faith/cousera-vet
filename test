@@ -1,0 +1,2 @@
+Given the GitHub users API https://api.github.com/users
+Create a React app that lists the users, and once a user is clicked we show the details.
